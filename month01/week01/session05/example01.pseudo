@@ -1,0 +1,72 @@
+// Ex01
+    OUTPUT "Hello, World"
+
+// Example 02 - Variables
+SET name TO "Alice"
+SET age TO 15
+    OUTPUT name 
+    OUTPOUT age 
+
+// Example 03 - Input
+    OUTPUT "What is your name"
+INPUT name 
+    OUTPUT "Hello, " + name 
+// Example 04 - Arithmetic Operations 
+SET a TO 10
+SET b TO 5
+SET sum TO a + b
+SET differnce TO a - b
+SET product TO a * b
+SET division TO a / b
+   OUTPUT sum // 15 
+// write other operations 
+
+
+// Example 05 - Simple Decision
+SET temperature TO 30
+IF temperature > 25 THEN 
+   OUTPUT "it's hot today"
+END IF 
+
+//Example 06 - TWO choices 
+SET age TO 16 
+IF age >= 18 THEN 
+   OUTPUT "You can vote"
+ELSE
+   OUTPUT "You cannot vote yet"
+END IF 
+
+//Example 07 - IF-ELSE IF-ELSE (Multiple choices)
+SET score TO 75
+IF score >= 90 THEN 
+   OUTPUT "Grade A"
+ELSE IF score >= 80 THEN 
+   OUTPUT "Grade B"
+
+
+END IF 
+ELSE 
+    OUTPUT "Grade F"
+END IF 
+//Example 08 - WHILE loop (Repeat while true)
+SET counter TO 1
+
+WHILE counter <= 5 THEN 
+    OUTPUT counter 
+    SET counter  TO counter + 1
+END WHILE 
+
+
+
+// Example 09 - FOR loop (Repeat a set number of times)
+FOR i FROM 1 TO 5 DO 
+     OUTPUT "Hello"  = i 
+END FOR 
+
+//Example 10 - FUNCTION (Reusable code block)
+FUNCTION greet (name)
+    OUTPUT "Hello, " + name + "!"
+END FUNCTION
+
+CALL greet ("Bob")
+CALL greet ("Alice")

@@ -1,0 +1,81 @@
+// Exercises 01 //
+// ##Exercises 1: hoyr toonii niilber**
+// **Daalgawar:** Hoyr too (a, b)
+// **Output:** Niilber
+ 
+BEGIN
+   INPUT 3
+   INPUT 5
+SET sum = 3+5
+   OUPUT= 8
+END IF 
+// Exercises 2//
+BEGIN 
+   INPUT num
+   IF num 10 % 2 == 0 THEN 
+   OUTPUT "2"
+ELSE 
+   OUTPUT "5"
+END IF 
+//Exercises 3//
+BEGIN 
+   INPUT a,b,c 
+SET max = a 
+IF b > max THEN 
+   SET max = b 
+END IF 
+IF c > max THEN 
+SET max = c 
+END IF 
+OUTPUT max 
+END 
+//Exercises 4.1// 
+BEGIN 
+INPUT N 
+SET sum = 0
+FOR i = 1 TO N 
+SET sum = sum + i 
+END FOR 
+OUTPUT sum 
+END 
+//Exercises 5//
+BEGIN 
+   INPUT n 
+   SET factorial = 1 
+   FOR i = 1 TO n 
+     SET factorial = factorial * i  
+   END FOR 
+   OUTPUT factorial 
+END 
+//Exercises 6//
+BEGIN 
+   INPUT score
+   IF score >= 90 THEN
+      OUTPUT "A" 
+   ELSE IF score >= 80 THEN
+      OUTPUT "B"
+   ELSE IF score >= 70 THEN 
+      OUTPUT "C"
+   ELSE IF score >= 60 THEN 
+      OUTPUT "D"
+   ELSE 
+      OUTPUT "F"
+END IF  
+   // TODO 
+END 
+//Exercises 7//
+BEGIN 
+   INPUT num 
+   SET reversed = 0 
+   WHILE num > 0
+      SET digit = num MOD 10 
+      SET reversed = reversed * 10 + digit 
+      SET num = num / 10 
+ END WHILE 
+ OUTPUT reversed 
+ END 
+ //Exercises 8//
+ BEGIN 
+   INPUT n 
+   IF n <= 1 THEN 
+      OUTPUT ""
