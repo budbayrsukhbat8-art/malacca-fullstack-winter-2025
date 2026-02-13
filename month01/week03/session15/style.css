@@ -1,0 +1,234 @@
+/* ===== CSS RESET ===== */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY STYLES ===== */
+body {
+    /* Font тохиргоо */
+    font-family: Arial, Helvetica, sans-serif; /* Arial, Helvetica, sans-serif */
+    font-size: 16px;                       /* 16px */
+    line-height: 1.6;                     /* 1.6 */
+
+    /* Өнгө */
+    color: #333;                           /* #333 (бараан саарал) */
+   background-color: #f4f4f4 ;               /* #f4f4f4 (цайвар саарал) */
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #2c3e50;        /* #2c3e50 (бараан хөх) */
+    color: white;                   /* white */
+    padding:40px 20px;           /* 40px 20px */
+    text-align: center;              /* center */
+}
+
+header h1 {
+    font-size: 2.5rem ;               /* 2.5rem */
+    font-weight:bold;             /* bold */
+    margin-bottom: 10px;           /* 10px */
+}
+
+header p {
+    font-size: 1.2rem;               /* 1.2rem */
+    color: #bdc3c7;                   /* #bdc3c7 (саарал) */
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    margin-top: 20px;              /* 20px */
+}
+
+nav a {
+    color: white;                   /* white */
+    text-decoration: none;         /* none (доогуур зураасгүй) */
+    margin: 0 15px;            /* 0 15px */
+    padding: 10px 20px;           /* 10px 20px */
+    border-radius: 5px;           /* 5px */
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.1);        /* rgba(255,255,255,0.1) */
+    text-decoration: underline;         /* underline */
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+    max-width: 900px;               /* 900px */
+    margin: 0 auto;            /* 0 auto (хэвтээ голд) */
+    padding: 30px;                 /* 30px */
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: _____;        /* #2c3e50 (бараан хөх) */
+    color: _____;                   /* white */
+    padding: _____ _____;           /* 40px 20px */
+    text-align: _____;              /* center */
+}
+
+header h1 {
+    font-size: _____;               /* 2.5rem */
+    font-weight: _____;             /* bold */
+    margin-bottom: _____;           /* 10px */
+}
+
+header p {
+    font-size: _____;               /* 1.2rem */
+    color: _____;                   /* #bdc3c7 (саарал) */
+}
+
+
+/* ===== SECTIONS ===== */
+section {
+    background-color: white;        /* white */
+    padding: 30px;                 /* 30px */
+    margin-bottom: 25px;           /* 25px */
+    border-radius: 10px;           /* 10px */
+
+    /* Сүүдэр нэмэх */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);  /* 0 2px 10px rgba(0,0,0,0.1) */
+}
+
+section h2 {
+    font-size: 1.8rem;               /* 1.8rem */
+    color:#2c3e50;                   /* #2c3e50 */
+    margin-bottom: 20px;           /* 20px */
+    padding-bottom: 10px;          /* 10px */
+    border-bottom: 3px solid #3498db; /* 3px solid #3498db */
+}
+
+section p {
+    margin-bottom:15px;           /* 15px */
+    color:  #555;                   /* #555 */
+}
+/* ===== MAIN CONTENT ===== */
+main {
+    max: width 900px;               /* 900px */
+    margin: 0 auto;            /* 0 auto (хэвтээ голд) */
+    padding: 30px;                 /* 30px */
+}
+/* ===== SECTIONS ===== */
+section {
+    background-color: white;        /* white */
+    padding: 30px;                 /* 30px */
+    margin-bottom: 25px;           /* 25px */
+    border-radius: 10px;           /* 10px */
+
+    /* Сүүдэр нэмэх */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);  /* 0 2px 10px rgba(0,0,0,0.1) */
+}
+
+section h2 {
+    font-size: 1.8rem;               /* 1.8rem */
+    color: #2c3e50;                   /* #2c3e50 */
+    margin-bottom: 20px;           /* 20px */
+    padding-bottom: 10px;          /* 10px */
+    border-bottom: 3px solid #3498db; /* 3px solid #3498db */
+}
+
+section p {
+    margin-bottom: 15px;           /* 15px */
+    color: #555;                   /* #555 */
+}
+/* ===== SKILLS SECTION ===== */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;                     /* 20px */
+
+.skill-sub-card {
+flex: 1;
+}}
+
+.skill-card {
+    flex: 1;
+    min-width: 200px;               /* 200px */
+    background-color: #f8f9fa;        /* #f8f9fa */
+    padding: 20px;                 /* 20px */
+    border-radius: 8px;           /* 8px */
+    text-align: center;
+}
+
+.skill-card h3 {
+    font-size: 1.1rem;               /* 1.1rem */
+    color: #2c3e50;                   /* #2c3e50 */
+    margin-bottom: 15px;           /* 15px */
+}
+
+/* Skill Bar */
+.skill-bar {
+    width: 100%;
+    height: 10px;                  /* 10px */
+    background-color: #ddd;        /* #ddd */
+    border-radius: 5px;           /* 5px */
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #3498db;        /* #3498db */
+    border-radius: 5px;           /* 5px */
+}
+/* ===== CONTACT FORM ===== */
+.contact-form {
+    max-width: 500px;               /* 500px */
+    margin:  0 auto;            /* 0 auto */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;                   /* 100% */
+    padding: 15px ;                 /* 15px */
+    margin-bottom: 15px;           /* 15px */
+    border: 1px solid #ddd;      /* 1px solid #ddd */
+    border-radius: 5px;           /* 5px */
+    font-size: 16px;               /* 16px */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline:none;                 /* none */
+    border-color:#3498db;            /* #3498db */
+    box-shadow: 0 0 5px rgba(52,152,219,0.3);  /* 0 0 5px rgba(52,152,219,0.3) */
+}
+
+.contact-form button {
+    width: 100%;                   /* 100% */
+    padding:15px ;                 /* 15px */
+    background-color: #3498db;        /* #3498db */
+    color:  white;                   /* white */
+    border: none;                  /* none */
+    border-radius:  5px;           /* 5px */
+    font-size: 18px;               /* 18px */
+    cursor:  pointer ;                  /* pointer */
+}
+
+.contact-form button:hover {
+    background-color: #2980b9 ;        /* #2980b9 (бараан болгох) */
+}
+/* ===== FOOTER ===== */
+footer {
+    background-color:#2c3e50 ;        /* #2c3e50 */
+    color: white;                   /* white */
+    text-align: center;              /* center */
+    padding: 30px 20px;           /* 30px 20px */
+    margin-top: 30px;              /* 30px */
+}
+
+footer p {
+    font-size: 0.9rem;               /* 0.9rem */
+}
+
+footer a {
+    color:#3498db;                   /* #3498db */
+    text-decoration: none;         /* none */
+}
+
+footer a:hover {
+    text-decoration: underline;         /* underline */
+}
+

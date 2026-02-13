@@ -1,0 +1,196 @@
+.navbar {
+    background-color: #2c3e50;
+    padding: 20px 40px;
+
+    display: flex;
+    /* FLEX CONTAINER */
+}
+
+.nav-links {
+    display: flex;
+    /* Хэвтээ болгоно */
+    gap: 30px;
+    /* Зай */
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.sidebar {
+    display: flex;
+    width: 250px;
+    height: 100vh;
+    background-color: #34495e;
+    padding: 20px;
+    flex-direction: column;
+
+    gap: 15px;
+    width: 250px;
+    /* FLEXBOX АШИГЛА: босоо, gap 15px */
+
+
+}
+
+.sidebar-item {
+    padding: 15px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.sidebar-item:hover {
+    background-color: #1abc9c;
+}
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    justify-content: center;
+    flex-direction: column;
+    
+    /* FLEXBOX АШИГЛА: хэвтээ болон босоо ГОЛД */
+}
+
+.card {
+    width: 400px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.card h2 {
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        .footer {
+            display: flex;
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 50px;
+            justify-content: space-between;
+            /* FLEXBOX АШИГЛА: space-between */
+        }
+
+        .copyright {
+            font-size: 14px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            /* FLEXBOX АШИГЛА: gap 20px */
+            list-style: none;
+        }
+
+        .footer-links li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social {
+            display: flex;
+            gap: 15px;
+            /* FLEXBOX АШИГЛА: gap 15px */
+        }
+
+        .social-icon {
+            display: flex;
+            width: 40px;
+            height: 40px;
+            background-color: #34495e;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+
+            /* FLEXBOX АШИГЛА: төвлөрүүлэх */
+        }
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #ecf0f1;
+        }
+
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            
+            /* FLEXBOX АШИГЛА: wrap, gap 20px */
+        }
+
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }

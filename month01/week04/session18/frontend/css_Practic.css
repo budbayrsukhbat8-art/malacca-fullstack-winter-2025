@@ -1,0 +1,210 @@
+.float-left {
+    float: left;
+    width: 200px;
+    margin-right: 20px;    /* Текст болон зураг хооронд зай */
+    margin-bottom: 10px;
+}
+
+.article {
+    width: 600px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+.container {
+    background: lightblue;
+    border: 2px solid blue;
+    padding: 10px;
+    /* Container height = 0! */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: coral;
+    margin: 5px;
+}
+
+.float-left {
+    float: left;
+}
+.element {
+    clear: none;    /* Default: Clear хийхгүй */
+    clear: left;    /* Зүүн float-ийн доор шилжих */
+    clear: right;   /* Баруун float-ийн доор шилжих */
+    clear: both;    /* Бүх float-ийн доор шилжих */
+}
+.sidebar {
+    float: left;
+    width: 200px;
+    background: lightblue;
+}
+
+.main {
+    float: left;
+    width: 400px;
+    background: lightgreen;
+}
+
+.footer {
+    clear: both;    /* Бүх float-ийн доор шилжинэ */
+    background: lightcoral;
+}
+/* Классик Clearfix */
+.clearfix::after {
+    content: "";           /* Хоосон content үүсгэх */
+    display: block;        /* Block элемент болгох */
+    clear: both;           /* Бүх float-ийг clear хийх */
+}
+
+/* Өөр нэг хувилбар (table display) */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Хамгийн бүрэн хувилбар (IE хүртэл дэмждэг) */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.container {
+    overflow: hidden;    /* эсвэл overflow: auto */
+}
+.layout {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    float: left;
+    width: 250px;           /* Fixed өргөн */
+    background: #34495e;
+    color: white;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.main-content {
+    float: left;
+    width: calc(100% - 250px);   /* Үлдсэн зайг эзэлнэ */
+    /* эсвэл: width: 750px; */
+    background: #ecf0f1;
+    min-height: 400px;
+    padding: 20px;
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.three-column {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+    width: 33.333%;         /* 3 багана = 100%/3 */
+    /* width: calc(100% / 3); */
+    padding: 20px;
+    box-sizing: border-box; /* Padding-ийг width-д оруулах */
+    background: #3498db;
+    min-height: 300px;
+}
+
+.col:nth-child(2) {
+    background: #2ecc71;
+}
+
+.col:nth-child(3) {
+    background: #e74c3c;
+}
+.card-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    width: calc(33.333% - 20px);  /* 3 багана, margin-ийн зай */
+    margin: 10px;
+    height: 200px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+/* Clearfix */
+.card-grid::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*
+   АСУУДАЛ:
+   width: 33.333% + padding: 20px = 33.333% + 40px → 100%-с хэтэрнэ!
+*/
+
+.col {
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+    /* Элемент 33.333% + 40px болж wrap хийнэ */
+}
+
+/*
+   ШИЙДЭЛ: box-sizing: border-box
+   Padding болон border нь width-д БАГТАНА
+*/
+
+.col {
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+    box-sizing: border-box;  /* Одоо нийт 33.333% */
+}
+
+/*
+   ИЛҮҮ САЙН: Global rule
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/* Зураг зүүн тийш float хийж текст тойруулах */
+.article-image {
+    float: left;              /* Float хийх */
+    width: 200px;
+    margin-right: 20px;       /* Текст болон зураг хооронд зай */
+    margin-bottom: 10px;
+}
+/* Container collapse засах clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Sidebar + Main content layout */
+.sidebar {
+    float: left;
+    width: 250px;
+}
+
+.main-content {
+    float: left ;
+    width: calc(100% - 250px);
+}
+
+.footer {
+    clear: both;              /* Бүх float-ийн доор */
+}
+
+
+

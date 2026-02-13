@@ -1,0 +1,80 @@
+.container {
+    min-height: 100vh;
+    padding: 40px 20px;
+
+    /* Flexbox идэвхжүүлэх */
+    display: flex;
+
+    /* Картыг хэвтээ төвд байрлуулах */
+    justify-content: center;
+
+    /* Картыг босоо төвд байрлуулах */
+    align-items: center;
+}
+
+.profile-card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 380px;
+
+    /* Flexbox идэвхжүүлэх */
+    display: flex;
+
+    /* Босоо чиглэлд байрлуулах */
+    flex-direction: column;
+
+    /* Элементүүдийг хэвтээ төвд байрлуулах */
+    align-items: center;
+}
+
+.profile-stats {
+    width: 100%;
+    padding: 20px 0;
+
+    /* Flexbox идэвхжүүлэх */
+    display: flex;
+
+    /* 3 stat-item-ийг тэнцүү зайтай байрлуулах */
+    justify-content: space-around;
+}
+
+.stat-item {
+    text-align: center;
+
+    /* Flexbox идэвхжүүлэх */
+    display: flex;
+
+    /* Босоо чиглэлд байрлуулах */
+    flex-direction: column;
+
+    /* Зай 5px */
+    gap: 5px;
+}
+
+.profile-actions {
+    width: 100%;
+    margin-bottom: 25px;
+
+    /* Flexbox идэвхжүүлэх */
+    display: flex;
+
+    /* Товчнуудын хоорондох зай 15px */
+    gap: 15px;
+}
+
+.social-links {
+    width: 100%;
+
+    /* Flexbox идэвхжүүлэх */
+    display: flex;
+
+    /* Төвд байрлуулах */
+    justify-content: center;
+
+    /* Зай 20px */
+    gap: 20px;
+
+    /* Wrap хийх */
+    flex-wrap: wrap;
+}

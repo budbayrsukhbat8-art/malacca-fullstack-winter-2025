@@ -1,0 +1,72 @@
+.dashboard {
+    display: flex;  /* Хэвтээ чиглэлд */
+    
+}
+
+.sidebar {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+     /* Logo дээр, logout доор */
+}
+
+.main-content {
+    flex: 1;  /* Үлдсэн зайг эзлэх */
+    flex-direction: column;
+    gap: 30px;
+
+}
+.stats-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.stat-card {
+    flex: 1;  /* Тэнцүү хуваах */
+    align-items: center;
+    gap: 15px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stat-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-grid {
+    display: flex;
+    gap: 20px;
+
+}
+.dashboard-card {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
