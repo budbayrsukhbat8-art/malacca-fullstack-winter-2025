@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .nav-link{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .nav-link.active{
+
+       
+            color: yellow;
+        }
+        .card{
+            background-color:white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .description{
+            color: gray;
+            font-style: italic;
+        }
+        .btn{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            color: #333;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .btn-primary{
+            background-color: #007bff;
+        }
+        .btn-success{
+            background-color: #28a745;
+        }
+        .btn-danger{
+            background-color: red;
+        }
+        .alert{
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid;
+            margin-bottom: 10px;
+        }
+        .alert-success{
+            background-color:#d4edda;
+            color: #155724;
+            border-color: #c3e6cb;
+        }
+        .alert-warning{
+            background-color: #fff3cd;
+            color: #856404;
+            border-color:#ffeeba ;
+        }
+        .alert-error{
+            background-color: #f8d7da;
+            color: #721c24;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Sitiin ner</h1>
+        <nav>
+            <a href="#" class="nav-link">Nuur</a>
+            <a href="#" class="nav-link">Tuhai</a>
+            <a href="#" class="nav-link active">Holboo barih</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Garchig</h2>
+           <p class="description">Tailbar text</p>
+        </section>
+    </main>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+
+    <div class="alert alert-success">Amjilttai hadgalagdlaa!</div>
+    <div class="alert alert-warning">Anhaaruulga: Hadgalaagui oorchlolt baina.</div>
+    <div class="alert alert-error">Aldaa: Newtreh ner buruu baina.</div>
+</body>
+</html>

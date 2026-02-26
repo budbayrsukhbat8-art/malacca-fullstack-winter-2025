@@ -1,0 +1,77 @@
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+
+    /* TODO: Flexbox идэвхжүүлэх */
+
+    /* TODO: Картуудыг хэвтээ чиглэлд төвлөрүүлэх */
+
+    /* TODO: Картуудыг босоо чиглэлд дээд талд зэрэгцүүлэх */
+
+    /* TODO: Картуудын хоорондох зай 30px */
+
+    /* TODO: Жижиг дэлгэцэнд wrap хийх */
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 320px;
+
+    /* TODO: Flexbox идэвхжүүлэх */
+
+    /* TODO: Босоо чиглэлд байрлуулах */
+
+    /* TODO: Элементүүдийг төвлөрүүлэх */
+}
+
+.card-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    /* TODO: Flexbox идэвхжүүлэх */
+
+    /* TODO: Үнэ болон period-ийг baseline-аар зэрэгцүүлэх */
+
+    /* TODO: Төвлөрүүлэх */
+}
+
+.card-features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 30px;
+
+    /* TODO: Flexbox идэвхжүүлэх */
+
+    /* TODO: Босоо чиглэлд байрлуулах */
+
+    /* TODO: Зүүн талд зэрэгцүүлэх */
+
+    /* TODO: Feature хоорондын зай 12px */
+}
+
+.card-button {
+    width: 100%;
+    padding: 15px 30px;
+    margin-top: auto;
+    /* TODO: margin-top: auto ашиглан товчийг доод талд байрлуулах */
+}
+

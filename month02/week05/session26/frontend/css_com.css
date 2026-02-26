@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma,
+    ;
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.flex-item {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    background-color: #fff3e0;
+    padding: 15px;
+
+}
+
+.grid-item {
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

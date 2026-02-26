@@ -1,0 +1,26 @@
+/* 1. Badge-ийг card-ийн баруун дээд буланд байрлуулах */
+.card {
+    position:relative;  /* child-д absolute ажиллуулахын тулд */
+    width: 300px;
+}
+
+.badge {
+    position:absolute;
+    top: 0;
+    right:0 ;
+}
+
+/* 2. Fixed header үүсгэх */
+.header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100% ; 
+    z-index: 100;
+}
+
+/* 3. Element-ийг өөрийн байрлалаас 10px доош шилжүүлэх */
+.shifted {
+    position: relative;
+    top:10px;
+}

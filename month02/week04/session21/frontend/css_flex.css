@@ -1,0 +1,124 @@
+.container {
+    display: flex;  /* Container болгох */
+}
+.container {
+    display: flex;         /* Block-level flex container */
+    /* ЭСВ */
+    display: inline-flex;  /* Inline-level flex container */
+}
+.container {
+    display: flex;
+    flex-direction: row;           /* Хэвтээ (default) */
+    flex-direction: row-reverse;   /* Хэвтээ, урвуу */
+    flex-direction: column;        /* Босоо */
+    flex-direction: column-reverse;/* Босоо, урвуу */
+}
+/* Хэвтээ navigation */
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Босоо sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Logo зүүнд, button баруунд */
+    align-items: center;             /* Босоо голд */
+    padding: 15px 30px;
+    background-color: #2c3e50;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;  /* Links хоорондын зай */
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;             /* Багтахгүй бол шинэ мөрөнд */
+    gap: 20px;                   /* Cards хоорондын зай */
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Navigation: Logo зүүнд, links баруунд */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Buttons голд */
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer links тэнцүү тараана */
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    display: flex;
+    height: 200px;  /* Үр дүн харахын тулд өндөр өг */
+
+    align-items: stretch;     /* Сунах (default) */
+    align-items: flex-start;  /* Дээд талд */
+    align-items: flex-end;    /* Доод талд */
+    align-items: center;      /* Голд */
+    align-items: baseline;    /* Text baseline */
+}
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+
+}
+.circle-container{
+    display: flex;
+    justify-content: space-between;
+
+
+}
