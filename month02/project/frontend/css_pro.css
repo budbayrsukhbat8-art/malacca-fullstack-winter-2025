@@ -1,7 +1,37 @@
-.profile-container {
-    width: 160px;
-    height: 160px;
-    top: 136px;
-    left: 676px;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f0c9;
+
+}
+.card {
+width: 320px;
+background: white;
+border-radius: 20px;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+text-align: center;
+}
+.card-header {
+    height: 140px;
+    
+    position: relative;
+    
+
+
+}
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+}
+    
+

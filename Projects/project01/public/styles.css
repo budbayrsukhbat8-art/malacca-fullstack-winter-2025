@@ -1,0 +1,50 @@
+main {
+    max-width: 800px;
+    height: 80vh;
+    background-color: rgb(133, 67, 133);
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .box {
+
+    width: 400px;
+    height: 400px;
+    background-color: red;
+
+}
+@media (max-width:365px){
+    main .box{
+        width: 250px;
+        height: 250px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+}
+@media (min-width:900px) {
+    main .box{
+        transform: rotate(60deg);
+        background-color: blue;
+    }
+}
+@media (min-width: 1200px), (max-width: 1400px) {
+    main .box {
+        width: 50%;
+        height: 20%;
+        animation: 3s animate infinite ;
+    }
+}
+@keyframes animate {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
