@@ -1,0 +1,19 @@
+.img{
+    display: flex;
+    
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+      
+
+}
+.h2{
+
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+

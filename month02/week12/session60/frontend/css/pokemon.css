@@ -1,0 +1,33 @@
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pokemon-card {
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid greenyellow;
+    background-color: #1eba11;
+}
+
+.pokemon-card .pokemon-image {
+    width: 100%;
+}
+
+.pokemon-card .pokemon-title {
+    text-align: center;
+}
+.pokemon-title{
+    color: #ffffff;
+    width: 153px;
+    height: 33px;
+    top: 831px;
+    left: 88px;
+   
+}
+

@@ -97,25 +97,59 @@ ul li button {
     height: 697px;
     background-color: #ffffff;
     margin: 0 auto;
+    
 }
+.second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 697px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
 .second-text {
-    width: 420px;
+    width: 429px;
     height: 343.5px;
     border-radius: 30px;
-
 }
+
 #text1 {
-    font-family:"Montserrat";
+    font-family: "Montserrat";
     font-size: 64px;
-
 }
+
 #text2 {
     width: 312px;
     height: 60px;
     font-size: 20px;
     margin: 20px 0;
-
 }
+
+.second-text button {
+    font-family: "Montserrat";
+    background-color: #75C310;
+    width: 220px;
+    height: 54px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.second-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    order: 1;
+    width: 568px;
+    height: 345px;
+    border-radius: 30px;
+}
+
 .second-text button {
     font-family: "Montserrat";
     background-color: #75c310;
@@ -127,8 +161,10 @@ ul li button {
     color: #ffffff;
     margin-top: 20px;
 }
+/* ==================== */
 .second1{
     display: flex;
+    position: relative;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -137,8 +173,14 @@ ul li button {
     margin: 0 auto;
 
 }
+.second1 img{
+    position: absolute;
+    top: 92px;
+    left: 127px;
+}
 .second-text1 {
     display: flex;
+
     flex-direction: column;
     align-items: end;
     order:1;
@@ -148,16 +190,27 @@ ul li button {
 
 }
 #text3 {
+    position: absolute;
+    top: 176px;
+    right: 127px;
     width: 568px;
     height: 156px;
     font-family: "Montserrat";
     font-size: 64px;
     text-align: right;
+    font-style: bold;
+    font-weight: 700;
 }
-#text4{
-    width: 381px;
+
+#text4 {
+    position: absolute;
+    top: 380px;
+    right: 127px;
+    width: 361px;
     height: 60px;
     font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
     margin: 20px 0;
     text-align: right;
     justify-self: end;
@@ -171,7 +224,12 @@ ul li button {
     font-size: 20px;
     border: none;
     color: #ffffff;
+    margin-top: 20px;
+    position: absolute;
+    top: 466px;
+    right: 127px;
 }
+/* ========== */
 .third {
     background-color: #ffffff;
     width: 100%;
